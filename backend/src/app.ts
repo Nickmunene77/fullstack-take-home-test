@@ -1,13 +1,16 @@
-import { ApolloServer } from '@apollo/server';
-import { startStandaloneServer } from '@apollo/server/standalone';
-import { typeDefs } from './schema';
-import { resolvers } from './resolvers';
+/* eslint-disable linebreak-style */
+/* eslint-disable semi */
+/* eslint-disable linebreak-style */
+import { ApolloServer } from '@apollo/server'
+import { startStandaloneServer } from '@apollo/server/standalone'
+import { typeDefs } from './schema'
+import { resolvers } from './resolvers'
 
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({ typeDefs, resolvers })
 
-(async () => {
+;(async () => {
   const { url } = await startStandaloneServer(server, {
     listen: { port: 4000 },
-  });
-  console.log(`🚀  Server ready at: ${url}`);
-})();
+  })
+  console.log(`🚀  Server ready at: ${url}`)
+})()

@@ -1,7 +1,9 @@
-import { booksData } from '../data/books';
+/* eslint-disable semi */
+/* eslint-disable linebreak-style */
+import { booksData } from '../data/books'
 
 export const resolvers = {
   Query: {
     books: () => booksData,
   },
-};
+}
