@@ -30,7 +30,7 @@ const AddJobPage = ({ addBookSubmit }) => {
   return (
     <section className="bg-indigo-50">
       <div className="container m-auto max-w-2xl py-24">
-        <div className="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
+        <div className="bg-[rgb(255,218,203)] px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
           <form onSubmit={submitForm}>
             <h2 className="text-3xl text-center font-semibold mb-6">
               Add Book
@@ -113,7 +113,7 @@ const AddJobPage = ({ addBookSubmit }) => {
 
             <div>
               <button
-                className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
+                className="bg-[rgb(49,160,160)] hover:bg-[rgb(53,173,173)] text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
                 type="submit"
               >
                 Add Book

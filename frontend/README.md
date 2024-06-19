@@ -1,7 +1,5 @@
 # React library Project
 
-<img src="public/screen.png" />
-
 ```bash
 npm run server
 ```
